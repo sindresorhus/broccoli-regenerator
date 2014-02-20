@@ -1,0 +1,45 @@
+{
+  "name": "broccoli-regenerator",
+  "version": "0.1.0",
+  "description": "Transpile ES6 generator functions to ES5",
+  "license": "MIT",
+  "repository": "sindresorhus/broccoli-regenerator",
+  "author": {
+    "name": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "http://sindresorhus.com"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "broccoli build temp && mocha"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "broccoli-plugin",
+    "generator",
+    "yield",
+    "coroutine",
+    "rewriting",
+    "transformation",
+    "syntax",
+    "codegen",
+    "rewriting",
+    "refactoring",
+    "transpiler",
+    "desugaring",
+    "es6"
+  ],
+  "dependencies": {
+    "broccoli-filter": "^0.0.1",
+    "regenerator": "^0.4.1"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "broccoli": "^0.2.0",
+    "rimraf": "^2.2.6"
+  }
+}
