@@ -1,4 +1,4 @@
-# [broccoli](https://github.com/joliss/broccoli)-regenerator [![Build Status](https://travis-ci.org/sindresorhus/broccoli-regenerator.png?branch=master)](https://travis-ci.org/sindresorhus/broccoli-regenerator)
+# [broccoli](https://github.com/joliss/broccoli)-regenerator [![Build Status](https://travis-ci.org/sindresorhus/broccoli-regenerator.svg?branch=master)](https://travis-ci.org/sindresorhus/broccoli-regenerator)
 
 > Transpile ES6 generator functions to ES5 with [Regenerator](http://facebook.github.io/regenerator/)
 
@@ -7,12 +7,12 @@
 
 ## Install
 
-```
-npm install --save broccoli-regenerator
+```bash
+$ npm install --save broccoli-regenerator
 ```
 
 
-## Example
+## Usage
 
 ```js
 var regenerator = require('broccoli-regenerator');
@@ -34,4 +34,4 @@ Default: `false`
 
 ## License
 
-MIT © [Sindre Sorhus](http://sindresorhus.com)
+[MIT](http://opensource.org/licenses/MIT) © [Sindre Sorhus](http://sindresorhus.com)
