@@ -34,12 +34,12 @@
     "es6"
   ],
   "dependencies": {
-    "broccoli-filter": "^0.0.1",
+    "broccoli-filter": "^0.1.6",
     "regenerator": "^0.4.1"
   },
   "devDependencies": {
+    "broccoli": "^0.7.2",
     "mocha": "*",
-    "broccoli": "^0.2.0",
     "rimraf": "^2.2.6"
   }
 }
