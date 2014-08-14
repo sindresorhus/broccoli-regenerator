@@ -35,10 +35,11 @@
   ],
   "dependencies": {
     "broccoli-filter": "^0.1.6",
-    "regenerator": "^0.4.1"
+    "regenerator": "^0.4.12"
   },
   "devDependencies": {
-    "broccoli": "^0.7.2",
+    "broccoli": "^0.12.3",
+    "broccoli-cli": "0.0.1",
     "mocha": "*",
     "rimraf": "^2.2.6"
   }
