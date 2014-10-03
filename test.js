@@ -8,5 +8,5 @@ afterEach(function () {
 });
 
 it('should transpile ES6 generator functions to ES5', function () {
-	assert(/wrapGenerator/.test(fs.readFileSync('temp/fixture.js', 'utf8')));
+	assert(/regeneratorRuntime/.test(fs.readFileSync('temp/fixture.js', 'utf8')));
 });

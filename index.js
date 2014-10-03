@@ -8,7 +8,7 @@ function RegeneratorFilter(inputTree, options) {
 	}
 
 	this.inputTree = inputTree;
-	this.options = options || {};
+	this.options = options;
 }
 
 RegeneratorFilter.prototype = Object.create(Filter.prototype);
@@ -18,7 +18,7 @@ RegeneratorFilter.prototype.extensions = ['js'];
 RegeneratorFilter.prototype.targetExtension = 'js';
 
 RegeneratorFilter.prototype.processString = function (str) {
-	return regenerator(str, this.options);
+	return regenerator.compile(str, this.options).code;
 };
 
 module.exports = RegeneratorFilter;
