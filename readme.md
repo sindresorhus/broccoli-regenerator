@@ -7,8 +7,8 @@
 
 ## Install
 
-```sh
-$ npm install --save broccoli-regenerator
+```
+$ npm install --save-dev broccoli-regenerator
 ```
 
 
@@ -22,7 +22,7 @@ tree = regenerator(tree, options);
 
 ## API
 
-### regenerator(options)
+### regenerator(tree, [options])
 
 #### options.includeRuntime
 
