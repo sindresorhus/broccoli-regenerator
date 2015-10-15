@@ -7,6 +7,8 @@ function RegeneratorFilter(inputTree, options) {
 		return new RegeneratorFilter(inputTree, options);
 	}
 
+	Filter.call(this, inputTree);
+
 	this.inputTree = inputTree;
 	this.options = options;
 }
