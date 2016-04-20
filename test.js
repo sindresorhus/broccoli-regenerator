@@ -7,6 +7,6 @@ afterEach(function () {
 	rimraf.sync('temp');
 });
 
-it('should transpile ES6 generator functions to ES5', function () {
+it('should transpile ES2015 generator functions to ES5', function () {
 	assert(/regeneratorRuntime/.test(fs.readFileSync('temp/fixture.js', 'utf8')));
 });
